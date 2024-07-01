@@ -26,11 +26,3 @@ function destructivelyDeleteFromEmployeeByKey(employee, key) {
     return employee;
 }
 
- 
-module.exports = {
-    updateEmployeeWithKeyAndValue,
-    destructivelyUpdateEmployeeWithKeyAndValue,
-    deleteFromEmployeeByKey,
-    destructivelyDeleteFromEmployeeByKey,
-    employee
-};
